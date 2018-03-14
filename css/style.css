@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+}
+.request{
+    color: white;
+    padding: 20px 0;
+    background-color: black
+}
+.contacts{
+    height: 320px;
+    background-color: #95a5a6;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+}
+/*gradient*/
+.advantages {
+    color: white;
+    background: linear-gradient(to left, transparent, black),
+      url(/img/adv_960_720.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    padding: 25px 0;
+    }
+
+.offer{
+    color:white;
+    background: linear-gradient(to right, transparent,black), url(/img/off_960_720.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    padding: 25px 0;
+}
+.offerContent{
+    background:rgba(0, 0, 0, 0.4);;
+}
+.off1{
+    padding: 40px;
+    height: 275px;
+    background: url(/img/11.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease;
+}
+.off2{
+    padding: 40px;
+    height: 275px;
+    background: url(/img/22.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease;
+}
+.off3{
+    padding: 40px;
+    height: 275px;
+    background: url(/img/33.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease;
+}
+.off4{
+    padding: 40px;
+    height: 275px;
+    background: url(/img/44.jpg);
+    background-size: cover;
+    transition: transform 0.5s ease;
+}
+.offHov:hover{
+    z-index: 1;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.offLabel{
+    background: rgba(0, 0, 0, 0.75);
+}
+/**/
+
+.priceBlock{
+    background: url(/img/off_960_720.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+}
+.priceTable{
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 5px;
+}
+
+/*info*/
+dfn {
+  cursor: help;
+  font-style: normal;
+  position: relative;
+  
+}
+dfn::after {
+  content: attr(data-info);
+  display: inline;
+  position: absolute;
+  top: 22px; left: 0;
+  opacity: 0;
+  width: 230px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5em;
+  padding: 0.5em 0.8em;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  pointer-events: none; /* This prevents the box from apearing when hovered. */
+  transition: opacity 250ms, top 250ms;
+}
+dfn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 12px; left: 20px;
+  opacity: 0;
+  width: 0; height: 0;
+  border: solid transparent 5px;
+  border-bottom-color: rgba(0,0,0,0.8);
+  transition: opacity 250ms, top 250ms;
+}
+dfn:hover {z-index: 2;} /* Keeps the info boxes on top of other elements */
+dfn:hover::after,
+dfn:hover::before {opacity: 1;}
+dfn:hover::after {top: 30px;}
+dfn:hover::before {top: 20px;}
+/*info*/
+/* modal */
+input {
+  margin-bottom:10px;
+}
+textarea {
+  height:100px;
+  margin-bottom:10px;
+}
+input:first-of-type
+{
+  margin-top:35px;
+}
+input, textarea {
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  font-family: 'Source Sans Pro',arial,sans-serif;
+  border: 1px solid #cecece;
+  background: #e6e4e3;
+  color:#7f8c8d;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+}
+::-webkit-input-placeholder {
+   color: #7f8c8d;
+}
+:-moz-placeholder {
+   color: #FAFAFA;  
+}
+::-moz-placeholder {
+   color: #FAFAFA; 
+}
+:-ms-input-placeholder {  
+   color: #FAFAFA;  
+}
+/* /modal */
