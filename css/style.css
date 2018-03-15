@@ -80,7 +80,7 @@ h1{
 .advantages {
     color: white;
     background: linear-gradient(to left, transparent, black),
-      url(/img/adv_960_720.jpg);
+      url(../img/adv_960_720.jpg);
     background-size:cover;
     background-attachment:fixed;
     padding: 25px 0;
@@ -99,28 +99,28 @@ h1{
 .off1{
     padding: 40px;
     height: 275px;
-    background: url(/img/11.jpg);
+    background: url(../img/11.jpg);
     background-size: cover;
     transition: transform 0.5s ease;
 }
 .off2{
     padding: 40px;
     height: 275px;
-    background: url(/img/22.jpg);
+    background: url(../img/22.jpg);
     background-size: cover;
     transition: transform 0.5s ease;
 }
 .off3{
     padding: 40px;
     height: 275px;
-    background: url(/img/33.jpg);
+    background: url(../img/33.jpg);
     background-size: cover;
     transition: transform 0.5s ease;
 }
 .off4{
     padding: 40px;
     height: 275px;
-    background: url(/img/44.jpg);
+    background: url(../img/44.jpg);
     background-size: cover;
     transition: transform 0.5s ease;
 }
@@ -135,7 +135,7 @@ h1{
 /**/
 
 .priceBlock{
-    background: url(/img/off_960_720.jpg);
+    background: url(../img/off_960_720.jpg);
     background-size: cover;
     background-attachment:fixed;
 }
