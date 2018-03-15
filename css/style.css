@@ -42,7 +42,7 @@ h1{
 }
 .header{
     height: 215px;
-    background: #2980b9 url(/img/logos.jpg) repeat 0 0;
+    background: #2980b9 url(../img/logos.jpg) repeat 0 0;
 	-webkit-animation: 20s linear 0s normal none infinite animate;
 	-moz-animation: 20s linear 0s normal none infinite animate;
 	-ms-animation: 20s linear 0s normal none infinite animate;
