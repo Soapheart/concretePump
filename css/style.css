@@ -42,7 +42,7 @@ h1{
 }
 .header{
     height: 215px;
-    background: #2980b9 url(/img/logos.jpg) repeat 0 0;
+    background: #2980b9 url(../img/logos.jpg) repeat 0 0;
 	-webkit-animation: 20s linear 0s normal none infinite animate;
 	-moz-animation: 20s linear 0s normal none infinite animate;
 	-ms-animation: 20s linear 0s normal none infinite animate;
@@ -80,7 +80,7 @@ h1{
 .advantages {
     color: white;
     background: linear-gradient(to left, transparent, black),
-      url(/img/adv_960_720.jpg);
+      url(../img/adv_960_720.jpg);
     background-size:cover;
     background-attachment:fixed;
     padding: 25px 0;
@@ -88,7 +88,7 @@ h1{
 
 .offer{
     color:white;
-    background: linear-gradient(to right, transparent,black), url(/img/off_960_720.jpg);
+    background: linear-gradient(to right, transparent,black), url(../img/off_960_720.jpg);
     background-size: cover;
     background-attachment:fixed;
 }
@@ -99,14 +99,14 @@ h1{
 .off1{
     padding: 40px;
     height: 275px;
-    background: url(/img/11.jpg);
+    background: url(../img/11.jpg);
     background-size: cover;
     transition: transform 0.5s ease;
 }
 .off2{
     padding: 40px;
     height: 275px;
-    background: url(/img/22.jpg);
+    background: url(../img/22.jpg);
     background-size: cover;
     transition: transform 0.5s ease;
 }
@@ -120,7 +120,7 @@ h1{
 .off4{
     padding: 40px;
     height: 275px;
-    background: url(/img/44.jpg);
+    background: url(../img/44.jpg);
     background-size: cover;
     transition: transform 0.5s ease;
 }
@@ -135,7 +135,7 @@ h1{
 /**/
 
 .priceBlock{
-    background: url(/img/off_960_720.jpg);
+    background: url(../img/off_960_720.jpg);
     background-size: cover;
     background-attachment:fixed;
 }
