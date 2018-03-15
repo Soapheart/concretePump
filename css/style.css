@@ -14,11 +14,67 @@ html{
     background-color: black
 }
 .contacts{
+    color:white;
     height: 320px;
-    background-color: #95a5a6;
+    background-color: black;
+}
+.contactsLables{
+    padding: 20px 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:#f1c40f !important;
+    text-decoration: none;
 }
 h1{
     font-family: 'Roboto Slab', serif;
+}
+.hLabels{
+    color: white;
+    height: 215px;
+    padding: 0 20px;
+    display:inline-block;
+    vertical-align: top;
+    background:rgba(0, 0, 0, 0.7);;
+}
+.header{
+    height: 215px;
+    background: #2980b9 url(/img/logos.jpg) repeat 0 0;
+	-webkit-animation: 20s linear 0s normal none infinite animate;
+	-moz-animation: 20s linear 0s normal none infinite animate;
+	-ms-animation: 20s linear 0s normal none infinite animate;
+	-ms-animation: 20s linear 0s normal none infinite animate;
+	-o-animation: 20s linear 0s normal none infinite animate;
+	animation: 20s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 645px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 645px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 645px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 645px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 645px 0;}
 }
 /*gradient*/
 .advantages {
@@ -35,10 +91,10 @@ h1{
     background: linear-gradient(to right, transparent,black), url(/img/off_960_720.jpg);
     background-size: cover;
     background-attachment:fixed;
-    padding: 25px 0;
 }
 .offerContent{
-    background:rgba(0, 0, 0, 0.4);;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.4);
 }
 .off1{
     padding: 40px;
@@ -87,7 +143,13 @@ h1{
     background: rgba(255, 255, 255, 0.9);
     padding: 20px 5px;
 }
-
+.services
+{
+    padding: 20px 0;
+}
+.clients{
+    padding: 20px 0;
+}
 /*info*/
 dfn {
   cursor: help;
