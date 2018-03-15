@@ -88,7 +88,7 @@ h1{
 
 .offer{
     color:white;
-    background: linear-gradient(to right, transparent,black), url(/img/off_960_720.jpg);
+    background: linear-gradient(to right, transparent,black), url(../img/off_960_720.jpg);
     background-size: cover;
     background-attachment:fixed;
 }
