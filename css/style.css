@@ -2,6 +2,9 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
+p{
+    font-size: 120%;
+}
 .center{
     margin-left: auto;
     margin-right: auto;
@@ -9,9 +12,9 @@ html{
     text-align: center;
 }
 .request{
-    color: white;
+    color: black;
     padding: 20px 0;
-    background-color: black
+    background-color: white;
 }
 .contacts{
     color:white;
@@ -30,6 +33,7 @@ a:hover{
     text-decoration: none;
 }
 h1{
+    text-align: center;
     font-family: 'Roboto Slab', serif;
 }
 .hLabels{
@@ -38,7 +42,7 @@ h1{
     padding: 0 20px;
     display:inline-block;
     vertical-align: top;
-    background:rgba(0, 0, 0, 0.7);;
+    background:rgba(33, 37, 41, 0.8);;
 }
 .header{
     height: 215px;
@@ -89,7 +93,6 @@ h1{
 .offer{
     color:white;
     background: linear-gradient(to right, transparent,black), url(../img/off_960_720.jpg);
-    background-size: cover;
     background-attachment:fixed;
 }
 .offerContent{
@@ -97,6 +100,7 @@ h1{
     background:rgba(0, 0, 0, 0.4);
 }
 .off1{
+    border: 5px solid white;
     padding: 40px;
     height: 275px;
     background: url(../img/11.jpg);
@@ -104,6 +108,7 @@ h1{
     transition: transform 0.5s ease;
 }
 .off2{
+    border: 5px solid white;
     padding: 40px;
     height: 275px;
     background: url(../img/22.jpg);
@@ -111,13 +116,15 @@ h1{
     transition: transform 0.5s ease;
 }
 .off3{
+    border: 5px solid white;
     padding: 40px;
     height: 275px;
-    background: url(/img/33.jpg);
+    background: url(../img/33.jpg);
     background-size: cover;
     transition: transform 0.5s ease;
 }
 .off4{
+    border: 5px solid white;
     padding: 40px;
     height: 275px;
     background: url(../img/44.jpg);
@@ -135,19 +142,25 @@ h1{
 /**/
 
 .priceBlock{
-    background: url(../img/off_960_720.jpg);
-    background-size: cover;
-    background-attachment:fixed;
 }
 .priceTable{
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px 5px;
+    padding: 20px 0;
+}
+
+.servicesBlock{
+    background: url(../img/off_960_720.jpg);
 }
 .services
 {
+    background: rgba(255,255,255,0.8);
     padding: 20px 10px;
 }
+.clientsBlock{
+    background: url(/img/ourClients.jpg);
+    background-size: cover;
+}
 .clients{
+    background: rgba(255,255,255,0.8);
     padding: 20px 10px;
 }
 /*info*/
