@@ -38,21 +38,25 @@ h1{
 }
 .hLabels{
     color: white;
-    height: 215px;
+    height: 250px;
     padding: 0 20px;
     display:inline-block;
     vertical-align: top;
     background:rgba(33, 37, 41, 0.8);;
 }
 .header{
-    height: 215px;
-    background: #2980b9 url(../img/logos.jpg) repeat 0 0;
+    height: 250px;
+    background: #2980b9 url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment:inherit;
+/*
 	-webkit-animation: 20s linear 0s normal none infinite animate;
 	-moz-animation: 20s linear 0s normal none infinite animate;
 	-ms-animation: 20s linear 0s normal none infinite animate;
 	-ms-animation: 20s linear 0s normal none infinite animate;
 	-o-animation: 20s linear 0s normal none infinite animate;
 	animation: 20s linear 0s normal none infinite animate;
+*/
  
 }
  
