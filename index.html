@@ -47,7 +47,7 @@
                     </li>
 
                         <a class="nav-link" href="#"><i class="fab fa-youtube fa-lg"></i></a>
-                        <a class="nav-link" href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a class="nav-link" href="https://www.instagram.com/nasos25_52m"><i class="fab fa-instagram fa-lg"></i></a>
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <a href="tel:89184700505"><span class="navbar-text phone">
@@ -106,7 +106,7 @@
                     <h1>Наши преимущества</h1>
                     <p>Наша фирма ООО «СПЕЦАЛЬЯНС» располагает собственной производственной базой, оборудованной бетоносмесительной установкой СБ-145-3A.<br>Основными нашими преимуществами являются:<p>
                         <ul>
-                            <li><span>выгодное географическое расположение <dfn data-info="Осуществим поставку продукции по кратчайшему пути, в любую точку г. Краснодара"><i class="fas fa-question-circle"></i></dfn></span></li>
+                            <li><p>выгодное географическое расположение <dfn data-info="Осуществим поставку продукции по кратчайшему пути, в любую точку г. Краснодара"><i class="fas fa-question-circle"></i></dfn></p></li>
                             <li><p>система автоматического управления производственными процессами <dfn data-info="На базе тензометрических датчиков и контроллеров Direct Logic, обеспечивающая точность дозирования материалов до 1,0 кг"><i class="fas fa-question-circle"></i></dfn></p></li>
                             <li><p>зимнее исполнение оборудования <dfn data-info="Позволяющее по своим технико-эксплуатационным характеристикам обеспечить устойчивое производство бетонных смесей и строительных растворов при температуре окружающего воздуха от -15°С до +45°С"><i class="fas fa-question-circle"></i></dfn></p></li>
                             <li><p>автомобильные весы с пределом измерения 80 тн <dfn data-info="Обеспечивающие выходной контроль по объему отгружаемой продукции"><i class="fas fa-question-circle"></i></dfn></p></li>
@@ -138,25 +138,25 @@
                         </tr>
                         <tr>
                             <td>25 м</td>
-                            <td>6000 руб. (2 часа) 24 м3</td>
+                            <td>7000 руб. (2 часа) 24 м3</td>
                             <td>250 =</td>
                             <td>2500 =</td>
                         </tr>
                         <tr>
                             <td>36 м</td>
-                            <td>8000 руб. (2 часа) 24 м3</td>
+                            <td>9000 руб. (2 часа) 32 м3</td>
                             <td>250 =</td>
                             <td>2500 =</td>
                         </tr>
                         <tr>
                             <td>40-42 м</td>
-                            <td>9000 руб. (2 часа) 24 м3</td>
+                            <td>10000 руб. (2 часа) 36 м3</td>
                             <td>250 =</td>
                             <td>2500 =</td>
                         </tr>
                         <tr>
                             <td>52-58 м</td>
-                            <td>15000 руб. (2 часа) 24 м3</td>
+                            <td>15000 руб. (2 часа) 42 м3</td>
                             <td>350 =</td>
                             <td>3500 =</td>
                         </tr>
@@ -168,7 +168,7 @@
                         </tr>
                         <tr>
                             <td></td>
-                            <td colspan="3">Дополнительный бетоноводный тракт оплачивается отдельно<br>250 руб. за каждый метр удлинения</td>
+                            <td colspan="3">Дополнительный бетоноводный тракт оплачивается отдельно<br>300 руб. за каждый метр удлинения</td>
                         </tr>
                         <tr>
                             <td colspan="4">При выполнении работ на объектах, расположенных за пределами г.Краснодара, дополнительно применяется расцена за доставку автобетононасоса - 100 руб/км (по удалённости объекта от границы города Краснодара)</td>
@@ -177,7 +177,7 @@
                 </table>
             <br>
             <div class="row">
-               <a href="doc/priceList.xlsx" class="center"><button type="button" class="btn btn-primary" >Скачать прайс в формате xls (MS Excel)</button></a>
+               <a href="doc/priceList.docx" class="center"><button type="button" class="btn btn-primary" >Скачать прайс в формате docx (MS Word)</button></a>
             </div>
         </div>
         </div>
@@ -243,6 +243,7 @@
 <div class="modal fade" id="callRequest" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
+    <form action="php/send.php" method="post">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Заказать звонок</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -253,11 +254,13 @@
         <p>Пожалуйста заполните поля ниже, чтобы мы могли связаться с Вами</p>
         <input type="text" name="name" placeholder="Ваше имя" required="required" /><br/>
         <input type="phone" name="phone" placeholder="Телефон" required="required"/><br/>
+        <input type="email" name="email" placeholder="Почта"/><br/>
+        <div id="result"></div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
-        <button type="button" class="btn btn-primary">Заказать звонок</button>
+          <button type="submit" class="btn btn-primary center">Заказать звонок</button>
       </div>
+    </form>
     </div>
   </div>
 </div>

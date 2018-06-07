@@ -49,6 +49,7 @@ h1{
     background: #2980b9 url(../img/bg.jpg);
     background-size: cover;
     background-attachment:inherit;
+    background-attachment:inherit;
 /*
 	-webkit-animation: 20s linear 0s normal none infinite animate;
 	-moz-animation: 20s linear 0s normal none infinite animate;
