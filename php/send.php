@@ -1,8 +1,8 @@
 <?
 header('Content-Type: text/html; charset=utf-8');
 
-define('SITE_KEY', '6LfLHasUAAAAACkEsmiNttVj-gCCRQ0vrJVtuOc0');
-define('SECRET_KEY', '6LfLHasUAAAAAIizOxlMIGc8WJ1b_RuWNhPUBV9U');
+define('SITE_KEY', '/* SITE_KEY */');
+define('SECRET_KEY', '/* SECRET_KEY */');
 
 if($_POST){
 	function getCaptcha($SecretKey) {
