@@ -110,6 +110,7 @@ h1{
     height: 275px;
     background: url(../img/11.jpg);
     background-size: cover;
+    background-position: center;
     transition: transform 0.5s ease;
 }
 .off2{
@@ -118,6 +119,7 @@ h1{
     height: 275px;
     background: url(../img/22.jpg);
     background-size: cover;
+    background-position: center;
     transition: transform 0.5s ease;
 }
 .off3{
@@ -126,6 +128,7 @@ h1{
     height: 275px;
     background: url(../img/33.jpg);
     background-size: cover;
+    background-position: center;
     transition: transform 0.5s ease;
 }
 .off4{
@@ -134,6 +137,7 @@ h1{
     height: 275px;
     background: url(../img/44.jpg);
     background-size: cover;
+    background-position: center;
     transition: transform 0.5s ease;
 }
 .offHov:hover{
@@ -250,5 +254,8 @@ input, textarea {
 }
 :-ms-input-placeholder {  
    color: #FAFAFA;  
+}
+.hidden{
+	display: none;
 }
 /* /modal */
