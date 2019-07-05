@@ -300,7 +300,7 @@
     </form>
 	<script>
 		grecaptcha.ready(function() {
-		  grecaptcha.execute('6LfLHasUAAAAACkEsmiNttVj-gCCRQ0vrJVtuOc0', {action: 'homepage'}).then(function(token) {
+		  grecaptcha.execute('// SITE_KEY //', {action: 'homepage'}).then(function(token) {
 			 document.getElementById('g-recaptcha-response').value=token;
 		  	});
 	  	});
